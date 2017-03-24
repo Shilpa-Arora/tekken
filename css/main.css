@@ -1,0 +1,100 @@
+@font-face {
+    font-family: tarrget;
+    src: url("../assets/tarrgetlaser.ttf");
+}
+
+@font-face {
+    font-family: roboto_regular;
+    src: url("../assets/Roboto-Regular.ttf");
+}
+
+body {
+    background-image: url(../img/background.png);
+    background-size: cover;
+}
+
+.row {
+    max-width: 87rem;
+}
+
+#logo {
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+#left_con {
+    border-color: red;
+    height: 400px;
+}
+
+#left_con h2 {
+    /*text-align: center;*/
+    font-family: "Times New Roman", Times, serif;
+    color: lightgrey;
+    font-size: 33px;
+    margin-left: 110px;
+}
+
+#character_img_big {
+    width: 340px;
+}
+
+#name {
+    font-family: tarrget;
+    font-size: 35px;
+    color: white;
+    position: relative;
+    right: 300px;
+    top: 140px;
+}
+
+#weapon {
+    font-family: roboto_regular;
+    font-size: 25px;
+    color: lightgrey;
+    position: relative;
+    right: 300px;
+    top: 110px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1232px) {
+    #name {
+        position: inherit;
+    }
+    #weapon {
+        position: inherit;
+    }
+}
+
+@media screen and (max-width: 622px) {
+    #name {
+        text-align: center;
+    }
+    #weapon {
+        text-align: center;
+    }
+    #left_con h2 {
+        text-align: center;
+        margin-left: auto;
+    }
+}
+
+#right_con {
+    /*background-color: blue;*/
+    height: 400px;
+}
+
+#right_con h2 {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    color: lightgrey;
+    font-size: 33px;
+}
+
+@media screen and (max-width: 622px) {
+    #right_con {
+        margin-top: 280px;
+    }
+}
